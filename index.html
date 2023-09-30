@@ -167,32 +167,61 @@
 
                     <div class="row">
                         <div class="col-md-9">
-                            <h4><a href="https://boilerti.me">BoilerTime</a></h4>
+                            <h4 data-toggle="modal" data-target="#boilerTime" style="color: black">BoilerTime</h4>
                             <p class="sub">Algorithms Engineer
                             </p>
-                            <p><i>BoilerTime is a complete class schedule optimizer for Purdue University students that aggregates data and uses our proprietary optimization algorithm to optimize schedules</i></p>
+                            <p style="color: #428bca;" data-toggle="modal" data-target="#boilerTime"><i><u>About BoilerTime</u></i></p>
                             <p>Roles &amp; Responsibilities:</p>
                             <ul class="list-group">
                                 <li style="background-color: #E0E0E0" class="list-group-item">Team Manager (Agile Methodologies)</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item" style="padding-left: 5%; list-style-type: disc !important;">I facilitated regular progress meetings and reported status to the project coordinator</li>
+                                    <li class="list-group-item" style="padding-left: 5%; list-style-type: disc !important;">Served as scrum master for all 3 sprints leading up to public beta release; ensured 100% on-time delivery of user stories; mentored team members on effective software engineering techniques; ensured 95% acceptance of acceptance criteria on initial review. </li>
                                 </ul>
                                 <li style="background-color: #E0E0E0" class="list-group-item">Algorithms & Data Engineer</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item" style="padding-left: 5%; list-style-type: disc !important;">I was responsible for aquiring, filtering, and storing data such as section data to be optmized by. I was responsible for the entire design, implementation, and integration of our algorithm into the product and continue to improve it</li>
+                                    <li class="list-group-item" style="padding-left: 5%; list-style-type: disc !important;">Researched optimization techniques including neural networks, genetic algorithms, linear programming, and simulated annealing; implemented a binary genetic algorithm in Java; used gradient discent to track convergence to minimum loss solutions; conducted linear regression analysis of calculated losses for algorithm validation. </li>
                                 </ul>
                                 <li style="background-color: #E0E0E0" class="list-group-item">Backend Developer</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item" style="padding-left: 5%; list-style-type: disc !important;">I developed Node.JS backend software to drive our RESTful API account, data, and schedule services </li>
+                                    <li class="list-group-item" style="padding-left: 5%; list-style-type: disc !important;">Implemented a W3C compliant WebSocket to publish data to the optimization algorithm and to provide status updates and results to the user; used ExpressJS to implement RESTFul API routes for user accounts, schedule generation, and friend's schedules; implemented front-end UIs with VueJS for schedule input and algorithm output. </li>
                                 </ul>
                               </ul>
                         </div>
 
-                        <div class="year col-md-3">
+                        <div class="year col-md-3" style="color: black">
                             <p>2023-Present</p>
                         </div>
                     </div><!--Education & Certification 1 end-->
-                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="boilerTime" tabindex="-1" role="dialog" aria-labelledby="boilerTimeModal" aria-hidden="true" style="text-align: left;">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="boilerTimeModalHeader">BoilerTime Bio</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Founded out of a CS307--Software Engineering project at Purdue, BoilerTime is a schedule optimization algorithm for undergraduate student class schedules at Purdue University. Created by a team of six engineers, BoilerTime is driven by a proprietary optimization algorithm that uses user selected parameters such as time of day, professor rating, and course outcomes to select the perfect courses--and class times. </p>
+                                <ul>
+                                    <li>Website: <a href="https://boilerti.me">boilerti.me</a></li>
+                                    <li>Public Beta Release: Spring 2023</li>
+                                    <li>Anticipated General Release: Winter 2023/Summer 2024</li>
+                                    <li>Technologies</li>
+                                    <ul> 
+                                        <li>Database: Firestore by Google Cloud (NoSQL)</li>
+                                        <li>Backend Environment: NodeJS server with ExpressJS RESTFul Framework</li>
+                                        <li>Frontend: VueJS model-view-viewmodel, TailwindCSS style framework</li>
+                                        <li>Algorithm: Java with custom WebSocket for data stream; Containerized with Docker</li>
+                                    </ul>
+                                    <li>Project Management: Scrum (Agile Methodologies)</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+  
                     <hr>
                     
                     <div class="row">
